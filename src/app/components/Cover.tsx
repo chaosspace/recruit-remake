@@ -14,7 +14,7 @@ export const Cover = () => {
 						className="w-[150px] md:w-[200px] lg:w-[350px]"
 					/>
 				</div>
-				<div className="flex sm:w-auto -translate-x-[50%] left-[50%] justify-around items-center top-[42px] sm:top-0 absolute sm:relative text-sm gap-8 md:text-lg lg:text-3xl">
+				<div className="text-lg md:text-xl lg:text-2xl flex gap-[15%] sm:gap-8 sm:pt-2 md:pt-6 lg:pt-10">
 					<a
 						href="#"
 						className="cursor-pointer text-white font-semibold sm:hover:text-textHover duration-200"
@@ -61,15 +61,18 @@ export const Cover = () => {
 					JOINMISLAB
 					<span className="w-[80px] h-[2px] bg-gradient-to-r from-slate-700/10 via-white to-slate-700/10" />
 				</div>
-				<div className="mt-12 p-2 w-fit mx-auto flex bg-white rounded-3xl items-center text-black cursor-pointer hover:text-textHover duration-300">
-					加入我们
+				<div className="mt-12 text-lg p-2 w-fit mx-auto flex bg-white rounded-3xl items-center text-black cursor-pointer hover:text-textHover duration-300">
+					<a href="#schedule">加入我们</a>
 				</div>
 			</div>
-			<div className="hidden sm:block absolute transform-gpu bottom-5 animate-bounce left-[50%] cursor-pointer z-10 ">
-				<div className="-translate-x-[50%] w-[60px] h-[60px] rounded-full border-2 flex justify-center items-center">
-					<i className="icon">&#xe68a;</i>
+			<div className="hidden sm:block absolute bottom-[50px] left-[50%] cursor-pointer z-10 ">
+				<div className="-translate-x-[50%] pt-3 w-[60px] h-[60px] rounded-full border-2 flex justify-center items-center">
+					<a href="#aboutus" className="animate-bounce">
+						<i className="icon">&#xe68a;</i>
+					</a>
 				</div>
 			</div>
+			<div className="sm:absolute bottom-0 left-[50%] border-l-2 border-dashed translate-y-8 border-white h-[80px]" />
 		</div>
 	);
 };

@@ -16,13 +16,13 @@ export const Cover = () => {
 				</div>
 				<div className="text-lg md:text-xl lg:text-2xl flex gap-[15%] sm:gap-8 sm:pt-2 md:pt-6 lg:pt-10">
 					<a
-						href="#"
+						href="#aboutus"
 						className="cursor-pointer text-white font-semibold sm:hover:text-textHover duration-200"
 					>
 						关于我们
 					</a>
 					<a
-						href="#aboutus"
+						href="#members"
 						className="cursor-pointer text-white font-semibold sm:hover:text-textHover duration-200"
 					>
 						部门介绍
@@ -72,7 +72,7 @@ export const Cover = () => {
 					</a>
 				</div>
 			</div>
-			<div className="sm:absolute bottom-0 left-[50%] border-l-2 border-dashed translate-y-8 border-white h-[80px]" />
+			<div className="hidden sm:block sm:absolute bottom-0 left-[50%] border-l-2 border-dashed translate-y-8 border-white h-[80px]" />
 		</div>
 	);
 };

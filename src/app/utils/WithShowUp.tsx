@@ -21,8 +21,6 @@ export const WithShowUp = forwardRef<HTMLDivElement, Props>(
 				const observer = new IntersectionObserver(
 					(entries) => {
 						if (entries[0].isIntersecting) {
-							console.log(1);
-
 							setIsShow(true);
 							if (ref.current) {
 								observer.unobserve(ref.current);

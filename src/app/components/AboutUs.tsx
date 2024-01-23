@@ -13,7 +13,7 @@ export const AboutUs = () => {
 	return (
 		<div
 			id="aboutus"
-			className="h-screen flex flex-col sm:flex-row justify-center p-4 sm:p-10 lg:p-20 pb-0 gap-4 sm:gap-8 lg:gap-16"
+			className="h-screen flex flex-col sm:flex-row justify-center p-4 sm:p-10 lg:px-20 pb-0 gap-4 sm:gap-8 lg:gap-16"
 		>
 			<div ref={leftRef} className="relative flex-1">
 				<div className="sm:h-fit bg-[#f2f2f2] p-4 sm:p-6 lg:p-10 rounded-lg md:rounded-2xl lg:rounded-3xl">
@@ -50,7 +50,7 @@ export const AboutUs = () => {
 					x="-translate-x-[50%] left-[50%]"
 					endX="-translate-x-[20px] left-[50%]"
 					y="bottom-2"
-					endY="bottom-[27%]"
+					endY="bottom-[26%]"
 				>
 					<span className="bg-[#f2f2f2] font-thin p-1 rounded-md">周会</span>
 				</WithShowUp>

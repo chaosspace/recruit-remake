@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Schedule = () => {
   return (
-    <div>Schedule</div>
+    <div id='recruit' className='h-screen'>Schedule</div>
   )
 }

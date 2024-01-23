@@ -4,7 +4,7 @@ import React, { createRef } from "react";
 import Image from "next/image";
 import us from "../../../public/assets/us.png";
 import members from "../../../public/assets/members.png";
-import { WithShowUp } from "./WithShowUp";
+import { WithShowUp } from "../utils/WithShowUp";
 
 export const AboutUs = () => {
 	const leftRef = createRef<HTMLDivElement>();
@@ -30,45 +30,45 @@ export const AboutUs = () => {
 				<WithShowUp
 					ref={leftRef}
 					x="-translate-x-[50%] left-[50%]"
-					endX="translate-x-4"
-					y="translate-y-none bottom-2"
-					endY="-translate-y-5"
+					endX="-translate-x-[160px] left-[50%]"
+					y="bottom-2"
+					endY="bottom-[25%]"
 				>
 					<span className="bg-[#f2f2f2] font-thin p-2 rounded-md">创新</span>
 				</WithShowUp>
 				<WithShowUp
 					ref={leftRef}
 					x="-translate-x-[50%] left-[50%]"
-					endX="translate-x-[80px]"
-					y="translate-y-none bottom-2"
-					endY="translate-y-2"
+					endX="-translate-x-[90px] left-[50%]"
+					y="bottom-2"
+					endY="bottom-[23%]"
 				>
 					<span className="bg-[#f2f2f2] font-thin p-1 rounded-md">年轻</span>
 				</WithShowUp>
 				<WithShowUp
 					ref={leftRef}
 					x="-translate-x-[50%] left-[50%]"
-					endX="translate-x-[150px]"
-					y="translate-y-none bottom-2"
-					endY="-translate-y-[20px]"
+					endX="-translate-x-[20px] left-[50%]"
+					y="bottom-2"
+					endY="bottom-[27%]"
 				>
 					<span className="bg-[#f2f2f2] font-thin p-1 rounded-md">周会</span>
 				</WithShowUp>
 				<WithShowUp
 					ref={leftRef}
 					x="-translate-x-[50%] left-[50%]"
-					endX="translate-x-[220px]"
-					y="translate-y-none bottom-2"
-					endY="translate-y-0"
+					endX="translate-x-[50px] left-[50%]"
+					y="bottom-2"
+					endY="bottom-[23%]"
 				>
 					<span className="bg-[#f2f2f2] font-thin p-1 rounded-md">分享日</span>
 				</WithShowUp>
 				<WithShowUp
 					ref={leftRef}
 					x="-translate-x-[50%] left-[50%]"
-					endX="translate-x-4"
-					y="translate-y-none bottom-2"
-					endY="translate-y-16"
+					endX="-translate-x-[170px] left-[50%]"
+					y="bottom-2"
+					endY="bottom-[5%]"
 				>
 					<span className="bg-[#f2f2f2] font-thin p-1 rounded-md">
 						黑客马拉松文化周
@@ -77,9 +77,9 @@ export const AboutUs = () => {
 				<WithShowUp
 					ref={leftRef}
 					x="-translate-x-[50%] left-[50%]"
-					endX="translate-x-[120px]"
-					y="translate-y-none bottom-2"
-					endY="translate-y-8"
+					endX="-translate-x-[30px] left-[50%]"
+					y="bottom-2"
+					endY="bottom-0"
 				>
 					<span className="bg-[#f2f2f2] font-thin p-1 rounded-md">
 						百名工程师
@@ -88,9 +88,9 @@ export const AboutUs = () => {
 				<WithShowUp
 					ref={leftRef}
 					x="-translate-x-[50%] left-[50%]"
-					endX="translate-x-[220px]"
-					y="translate-y-none bottom-2"
-					endY="translate-y-[60px]"
+					endX=" left-[50%]"
+					y="bottom-2"
+					endY="bottom-[10%]"
 				>
 					<span className="bg-[#f2f2f2] font-thin p-1 rounded-md">
 						人才培养
@@ -99,9 +99,9 @@ export const AboutUs = () => {
 				<WithShowUp
 					ref={leftRef}
 					x="-translate-x-[50%] left-[50%]"
-					endX="translate-x-[260px]"
-					y="translate-y-none bottom-2"
-					endY="translate-y-8"
+					endX="translate-x-[80px] left-[50%]"
+					y="bottom-2"
+					endY="bottom-[4%]"
 				>
 					<span className="bg-[#f2f2f2] font-thin p-1 rounded-md">
 						技术应用

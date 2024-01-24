@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
 	return (
-		<main className="">
+		<main className="relative">
 			<Cover />
 			<AboutUs />
 			<Members />
@@ -13,7 +13,7 @@ export default function Home() {
 			<Schedule />
 			<div className="bg-[#f2f2f2] flex justify-around items-center flex-wrap sm:flex-row sm:justify-center sm:gap-12">
 				<div className="w-[40%] sm:w-auto p-2 border-r-0 sm:border-r-[1px] border-black">
-					<Image src={leftLogo} alt="leftLogo" width={150} height={60} />
+					<Image src={leftLogo} alt="leftLogo" width={150} />
 				</div>
 				<div className="w-[40%] sm:order-2 sm:w-auto p-2 relative sm:after:leftLine">
 					<Image src={rightCode} alt="rightCode" width={120} />

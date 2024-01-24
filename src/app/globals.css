@@ -7,8 +7,15 @@
 @layer components {
 	.icon {
 		font-family: "iconfont";
-    font-size: 2rem;
-    font-style: normal;
-    color: white;
+		font-size: 2rem;
+		font-style: normal;
+		color: white;
+	}
+	.leftLine {
+		content: "";
+		position: absolute;
+		height: auto;
+		inset: calc(50% - 37px) 0px;
+		border-left: 1px solid black;
 	}
 }

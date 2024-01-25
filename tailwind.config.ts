@@ -13,6 +13,9 @@ const config: Config = {
 				"gradient-conic":
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 			},
+			backgroundColor: {
+				dark: "hsla(0, 0%, 16.9%, 0.6)",
+			},
 			colors: {
 				textHover: "rgba(182, 154, 45,1)",
 			},

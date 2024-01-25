@@ -40,6 +40,12 @@ export const Cover = () => {
 							产品介绍
 						</a>
 						<a
+							href="#message"
+							className="cursor-pointer text-white font-semibold sm:hover:text-textHover duration-200"
+						>
+							成员动态
+						</a>
+						<a
 							href="#recruit"
 							className="cursor-pointer text-white font-semibold sm:hover:text-textHover duration-200"
 						>

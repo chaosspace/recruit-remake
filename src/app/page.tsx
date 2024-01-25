@@ -1,4 +1,11 @@
-import { Cover, AboutUs, Members, Product, Schedule } from "./components";
+import {
+	Cover,
+	AboutUs,
+	Members,
+	Product,
+	Schedule,
+	Message,
+} from "./components";
 import leftLogo from "../../public/assets/logo1.png";
 import rightCode from "../../public/assets/qrcode.png";
 import Image from "next/image";
@@ -10,6 +17,7 @@ export default function Home() {
 			<AboutUs />
 			<Members />
 			<Product />
+			<Message />
 			<Schedule />
 			<div className="bg-[#f2f2f2] flex justify-around items-center flex-wrap sm:flex-row sm:justify-center sm:gap-12">
 				<div className="w-[40%] sm:w-auto p-2 border-r-0 sm:border-r-[1px] border-black">

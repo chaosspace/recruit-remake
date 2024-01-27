@@ -89,14 +89,19 @@ export const Members = () => {
 								key={item.title}
 								className="flex w-[60vw] max-w-[800px] items-center justify-center"
 							>
-								<div>
-									<Image src={item.image} width={350} alt={item.title} />
+								<div className="float-left">
+									<Image
+										src={item.image}
+										width={350}
+										alt={item.title}
+										className="w-[100px]"
+									/>
 								</div>
-								<div className="ml-[40px] lg:ml-[80px] flex-1">
+								<div className="ml-[10px] sm:ml-[40px] lg:ml-[80px] flex-1">
 									<div className="text-lg sm:text-2xl lg:text-4xl">
 										{item.title}
 									</div>
-									<p className="mt-[20px] text-base sm:text-lg lg:text-xl">
+									<p className="mt-[10px] lg:mt-[20px] text-base sm:text-lg lg:text-xl">
 										{item.description}
 									</p>
 								</div>
@@ -104,14 +109,16 @@ export const Members = () => {
 						);
 					})}
 				</div>
-				<div className="flex absolute gap-6 bottom-[20%] left-[50%] -translate-x-[50%]">
+				<div className="flex absolute gap-2 sm:gap-6 bottom-[15%] sm:bottom-[20%] left-[50%] -translate-x-[50%]">
 					{sliderData.map((item, idx) => {
 						return (
 							<span
 								onClick={() => to(idx)}
 								key={`${item.title}_span`}
 								className={`select-none cursor-pointer transition-all duration-[500] h-[16px] rounded-2xl ${
-									index === idx ? "bg-dark w-[48px]" : "bg-[#f2f2f2] w-[30px]"
+									index === idx
+										? "bg-dark w-[24px] sm:w-[48px]"
+										: "bg-[#f2f2f2] w-[20px] sm:w-[30px]"
 								}`}
 							/>
 						);

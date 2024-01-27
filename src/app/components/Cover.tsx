@@ -20,7 +20,7 @@ export const Cover = () => {
 							className="w-[150px] md:w-[200px] lg:w-[350px]"
 						/>
 					</div>
-					<div className="text-lg md:text-xl lg:text-2xl flex gap-[15%] sm:gap-8 sm:pt-2 md:pt-6 lg:pt-10">
+					<div className="text-lg md:text-xl lg:text-2xl flex gap-[10%] sm:gap-8 sm:pt-2 md:pt-6 lg:pt-10">
 						<a
 							href="#aboutus"
 							className="cursor-pointer text-white font-semibold sm:hover:text-textHover duration-200"

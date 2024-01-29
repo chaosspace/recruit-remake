@@ -19,6 +19,28 @@ const config: Config = {
 			colors: {
 				textHover: "rgba(182, 154, 45,1)",
 			},
+			keyframes: {
+				toRight: {
+					"0%": {
+						left: "-25%",
+					},
+					"100%": {
+						left: "100%",
+					},
+				},
+				toLeft: {
+					"0%": {
+						left: "100%",
+					},
+					"100%": {
+						left: "-25%",
+					},
+				},
+			},
+			animation: {
+				hori: "toRight 5s infinite linear both alternate",
+				horiRevert: "toLeft 5s infinite linear both alternate",
+			},
 		},
 	},
 	plugins: [],

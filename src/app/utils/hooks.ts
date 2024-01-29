@@ -7,7 +7,7 @@ export const useInterval = (executor: Function, delay = 3000) => {
 		intervalId.current = setInterval(() => {
 			executor();
 		}, delay);
-	}, [delay]);
+	}, [delay, executor]);
 
 	const clear = () => {
 		if (intervalId.current) {

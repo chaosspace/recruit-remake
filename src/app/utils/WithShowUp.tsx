@@ -31,7 +31,7 @@ export const WithShowUp = forwardRef<HTMLDivElement, Props>(
 				);
 				observer.observe(ref.current);
 			}
-		}, []);
+		}, [threshold, ref]);
 
 		return (
 			<div

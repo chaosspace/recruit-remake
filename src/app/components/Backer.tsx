@@ -20,7 +20,7 @@ export const Backer = forwardRef<HTMLDivElement>((_, ref) => {
 
 			observer.observe(ref.current);
 		}
-	}, []);
+	}, [ref]);
 
 	return (
 		<div
